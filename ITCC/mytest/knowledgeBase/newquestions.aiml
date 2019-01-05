@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+    <!--新增问题版本一 2018.5.18-->
+    <!--<category>-->
+        <!--<pattern>*有*贷款*</pattern>-->
+        <!--<template>-->
+            <!--<srai>贷款有哪些品种？</srai>-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <category>
+        <pattern>*征信*</pattern>
+        <template>
+            关于征信的问题
+            请您致电客服热线4008699600
+        </template>
+    </category>
+
+    <category>
+        <pattern>*绑*银行卡*丢*</pattern>
+        <template>
+            银行卡丢失类问题
+            绑定的银行卡丢了，现在已经在银行做了挂失处理，请问怎么还款？
+            致电小安时代客服热线4008699600咨询。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*贷款*资料*寄*</pattern>
+        <template>
+            贷款还完了，贷款资料会寄回给我吗？还是你们自己销毁？
+            纸质合同会自行销毁
+        </template>
+    </category>
+
+    <category>
+        <pattern>*放款*到账*</pattern>
+        <template>
+            您好，你们的工作人员承诺三个工作日内放款，但是目前款项一直没有到账，请问是什么原因？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*申请*拒*申请*</pattern>
+        <template>
+            如果申请被拒了，能不能重新申请？
+            能
+        </template>
+    </category>
+
+    <category>
+        <pattern>*提前*还款*免*息*</pattern>
+        <template>
+            如果提前还款的话，你们可以减免部分利息吗？
+            不可以
+        </template>
+    </category>
+
+
+
+
+</aiml>

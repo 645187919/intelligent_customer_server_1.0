@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            #<star></star>
+        </template>
+    </category>
+<!-- 一、小安相关的问题-->
+<!--小安贷款申请相关的问题，后期可再对每个问题进行扩展，争取可以匹配各种询问形式-->
+    <category>
+        <pattern>*贷款*种*</pattern>
+        <template>
+            贷款有哪些品种？
+            房供贷、红本贷、流水贷（公积金、代发工资）、公务员贷、保单贷。
+        </template>
+    </category>
+    <category>
+        <pattern>*有*贷款*</pattern>
+        <template>
+            贷款有哪些品种？
+            房供贷、红本贷、流水贷（公积金、代发工资）、公务员贷、保单贷。
+        </template>
+    </category>
+    <category>
+        <pattern>*贷款*有*</pattern>
+        <template>
+            贷款有哪些品种？
+            房供贷、红本贷、流水贷（公积金、代发工资）、公务员贷、保单贷。
+        </template>
+    </category>
+
+    <category>
+        <!--小安、铜板街相同问题-->
+        <pattern>*贷款*期*</pattern>
+        <template>
+            贷款期限有哪些？
+            小安、铜板街：12、24、36期。
+        </template>
+    </category>
+
+    <category>
+    <pattern>*贷款*额度*</pattern>
+    <template>
+        贷款可申请的额度是多少？
+        小安：2-50万元。
+        铜板街：2-20万元。
+    </template>
+    </category>
+    <category>
+        <pattern>*贷*钱*</pattern>
+        <template>
+            贷款可申请的额度是多少？
+            小安：2-50万元。
+            铜板街：2-20万元。
+        </template>
+    </category>
+    <category>
+        <pattern>*申请*多少*贷款*</pattern>
+        <template>
+            贷款可申请的额度是多少？
+            小安：2-50万元。
+            铜板街：2-20万元。
+        </template>
+    </category>
+    <category>
+        <pattern>*申请*钱*</pattern>
+        <template>
+            贷款可申请的额度是多少？
+            小安：2-50万元。
+            铜板街：2-20万元。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*申请贷款*条件*</pattern>
+        <template>
+            申请贷款需要什么条件？
+            中国大陆合法居民持本人有效二代身份证，年龄23-55周岁，有合法稳定的收入证明，无不良信用记录，可申请2-50万元贷款。
+        </template>
+    </category>
+    <category>
+        <pattern>*条件*贷款*</pattern>
+        <template>
+            申请贷款需要什么条件？
+            中国大陆合法居民持本人有效二代身份证，年龄23-55周岁，有合法稳定的收入证明，无不良信用记录，可申请2-50万元贷款。        </template>
+    </category>
+    <category>
+        <pattern>*贷款*条件*</pattern>
+        <template>
+            申请贷款需要什么条件？
+            中国大陆合法居民持本人有效二代身份证，年龄23-55周岁，有合法稳定的收入证明，无不良信用记录，可申请2-50万元贷款。        </template>
+    </category>
+
+    <category>
+        <pattern>*申请贷款*料*</pattern>
+        <template>
+            申请贷款需要什么资料？
+            不同贷款品种所需资料不同，请参见预审短信通知。
+        </template>
+    </category>
+    <category>
+        <pattern>*贷款*料*</pattern>
+        <template>
+            申请贷款需要什么资料？
+            不同贷款品种所需资料不同，请参见预审短信通知。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*申请贷款*人*</pattern>
+        <template>
+            可申请贷款人群
+            1、拥有连续稳定工资收入的受薪人士。
+            2、拥有稳定经营收入的自雇人士。
+        </template>
+    </category>
+    <category>
+        <pattern>*贷款*人*</pattern>
+        <template>
+            可申请贷款人群
+            1、拥有连续稳定工资收入的受薪人士。
+            2、拥有稳定经营收入的自雇人士。
+        </template>
+    </category>
+    <category>
+        <pattern>*人*贷款*</pattern>
+        <template>
+            可申请贷款人群
+            1、拥有连续稳定工资收入的受薪人士。
+            2、拥有稳定经营收入的自雇人士。
+        </template>
+    </category>
+    <category>
+        <pattern>*可以*贷款*</pattern>
+        <template>
+            可申请贷款人群
+            1、拥有连续稳定工资收入的受薪人士。
+            2、拥有稳定经营收入的自雇人士。
+        </template>
+    </category>
+    <category>
+        <pattern>*能*贷款*</pattern>
+        <template>
+            可申请贷款人群
+            1、拥有连续稳定工资收入的受薪人士。
+            2、拥有稳定经营收入的自雇人士。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*城市*贷款*</pattern>
+        <template>
+            哪些城市可以申请贷款？
+            请您下载小安时代APP，注册后，点击“借款”，除提示“对不起，目前暂不支持该业务”外的其他地区均可以申请贷款。        </template>
+    </category>
+    <category>
+        <!--哪些地区可以贷款-->
+        <pattern>*地*贷款*</pattern>
+        <template>
+            哪些城市可以申请贷款？
+            请您下载小安时代APP，注册后，点击“借款”，除提示“对不起，目前暂不支持该业务”外的其他地区均可以申请贷款。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*接受*公司*保单*</pattern>
+        <template>
+            小安时代接受哪些保险公司的保单？
+            中国平安、中国人寿、中国太平、中国人保、前海人寿、泰康人寿、新华保险、华夏人寿、信诚人寿、阳光保险、
+            中宏人寿、中意人寿、安联保险、 珠江人寿、工银安盛、太平洋保险等公司的寿险保单。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*还款*方式*</pattern>
+        <template>
+            请问有哪些还款方式？
+            小安、铜板街：等额本息。
+        </template>
+    </category>
+
+    <!--2、小安时代开户注册的问题-->
+    <category>
+        <pattern>*下载小安*</pattern>
+        <template>
+            如何下载小安时代APP？
+            您有以下两种下载方式：
+            1、关注小安时代微信公众号，点击“APP下载”即可；
+            2、苹果手机可在“APP Store”，安卓手机可在“腾讯应用宝、小米应用商店、360应用市场”等搜索“小安时代”，即可下载。
+        </template>
+    </category>
+    <category>
+        <pattern>*小安*下载*</pattern>
+        <template>
+            如何下载小安时代APP？
+            您有以下两种下载方式：
+            1、关注小安时代微信公众号，点击“APP下载”即可；
+            2、苹果手机可在“APP Store”，安卓手机可在“腾讯应用宝、小米应用商店、360应用市场”等搜索“小安时代”，即可下载。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*注册小安*</pattern>
+        <template>
+            如何注册小安时代APP账户？
+            您有以下三种注册方式：
+            1、登录小安时代APP后，点击右上角“注册”，根据提示完成注册；
+            2、关注小安时代微信公众号，点击“快速借款-在线注册”根据提示完成注册。
+            3、扫描客户经理二维码注册。
+        </template>
+    </category>
+    <category>
+        <pattern>*小安*注册*</pattern>
+        <template>
+            如何注册小安时代APP账户？
+            您有以下三种注册方式：
+            1、登录小安时代APP后，点击右上角“注册”，根据提示完成注册；
+            2、关注小安时代微信公众号，点击“快速借款-在线注册”根据提示完成注册。
+            3、扫描客户经理二维码注册。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*一*注册*小安*</pattern>
+        <template>
+            一部手机可以注册几个小安时代APP账户？
+            一部手机只能注册一个账户。
+        </template>
+    </category>
+
+    <category>
+        <!--这个问题可以在答卷中解决，直接声明这个选项不是必选项就OK了，这不是问题-->
+        <pattern>*推荐人*必填项*</pattern>
+        <template>
+            推荐人及推荐人电话是否为必填项？
+            否。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*注册小安*验证码*</pattern>
+        <template>
+            注册小安时代APP账户时收不到手机验证码怎么办？
+            1、请您确认手机信号是否正常；
+            2、请您确认手机是否屏蔽短信接收；
+            3、若无上述问题，请您尝试编辑短信DG同时发送至106909996869和106980096869，30分钟后尝试重新获取验证码。
+        </template>
+    </category>
+
+<!--3、密码安全问题-->
+    <category>
+        <pattern>*密码*设置*</pattern>
+        <template>
+            密码设置规则是什么？
+            8-12位字母加数字组合。
+        </template>
+    </category>
+    <category>
+        <pattern>*设置*密码*</pattern>
+        <template>
+            密码设置规则是什么？
+            8-12位字母加数字组合。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*忘记*密码*</pattern>
+        <template>
+            忘记登录密码怎么办？
+            小安：请您打开小安时代APP，点击“忘记密码”，重置即可。
+            天府银行：请您登录熊猫金融APP，点击“登录遇到了问题”→“找回登录密码”，根据提示重置密码即可。
+        </template>
+    </category>
+    <category>
+        <pattern>*密码*忘*</pattern>
+        <template>
+            忘记登录密码怎么办？
+            小安：请您打开小安时代APP，点击“忘记密码”，重置即可。
+            天府银行：请您登录熊猫金融APP，点击“登录遇到了问题”→“找回登录密码”，根据提示重置密码即可。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*密码*锁定*</pattern>
+        <template>
+            密码输错多少次会被锁定，如何解锁？
+            输错5次会被锁定，24小时后自动解锁；也可通过忘记密码解锁。
+        </template>
+    </category>
+    <category>
+        <pattern>*解锁*</pattern>
+        <template>
+            密码输错多少次会被锁定，如何解锁？
+            输错5次会被锁定，24小时后自动解锁；也可通过忘记密码解锁。
+        </template>
+    </category>
+
+    <!--4、小安APP使用的问题-->
+    <category>
+        <pattern>*小安*录*信息*身份证*读取失败*</pattern>
+        <template>
+            在小安时代APP录入信息时，身份证正反面均读取失败，怎么办？
+            1、请您保持身份证卡面洁净，不影响身份证信息读取；
+            2、适当调整身份证卡面与手机摄像头的距离；
+            3、读取身份证正反面时，尽量保持光线充足和均匀。
+        </template>
+    </category>
+    <category>
+        <pattern>*身份证*失败*</pattern>
+        <template>
+            在小安时代APP录入信息时，身份证正反面均读取失败，怎么办？
+            1、请您保持身份证卡面洁净，不影响身份证信息读取；
+            2、适当调整身份证卡面与手机摄像头的距离；
+            3、读取身份证正反面时，尽量保持光线充足和均匀。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*绑*银行卡*失败*</pattern>
+        <template>
+            在小安时代APP上绑定银行卡失败，怎么办？
+            1、请您确保绑定银行卡的发卡行为指定银行；
+            2、请您确保是本人名下的银行卡；
+            3、请确保注册小安时代APP的手机号码与绑定银行卡在柜台开户时预留的手机号码完全一致。
+        </template>
+    </category>
+    <category>
+        <pattern>*银行卡*失败*</pattern>
+        <template>
+            在小安时代APP上绑定银行卡失败，怎么办？
+            1、请您确保绑定银行卡的发卡行为指定银行；
+            2、请您确保是本人名下的银行卡；
+            3、请确保注册小安时代APP的手机号码与绑定银行卡在柜台开户时预留的手机号码完全一致。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*改*小安*绑*银行卡*</pattern>
+        <template>
+            如何修改小安时代APP上绑定的银行卡？
+            暂时无法修改。
+        </template>
+    </category>
+    <category>
+        <pattern>*银行卡*改*</pattern>
+        <template>
+            如何修改小安时代APP上绑定的银行卡？
+            暂时无法修改。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*绑*张*银行卡*</pattern>
+        <template>
+            小安时代APP可以绑定几张银行卡？
+            小安时代APP目前对绑定银行卡的数量没有限制。
+        </template>
+    </category>
+    <category>
+        <pattern>*绑*银行卡*</pattern>
+        <template>
+            小安时代APP可以绑定几张银行卡？
+            小安时代APP目前对绑定银行卡的数量没有限制。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*录*读取*通讯录*</pattern>
+        <template>
+            小安时代APP录入贷款申请时，无法读取通讯录信息，怎么办？
+            1、苹果手机
+            请您打开手机，点击“设置”→“隐私”→“通讯录”→“小安时代”选择允许读取，退出小安APP重新登录即可。
+            2、安卓手机
+            请您打开手机“设置”→“应用程序”→“权限管理”→“小安时代”→“读取\访问联系人”选择允许，
+            退出小安APP重新登录即可（不同品牌的安卓手机设置步骤有些微差别，若无法操作时可致电客服热线4008699600咨询）。
+        </template>
+    </category>
+    <category>
+        <pattern>*读取*通讯录*</pattern>
+        <template>
+            小安时代APP录入贷款申请时，无法读取通讯录信息，怎么办？
+            1、苹果手机
+            请您打开手机，点击“设置”→“隐私”→“通讯录”→“小安时代”选择允许读取，退出小安APP重新登录即可。
+            2、安卓手机
+            请您打开手机“设置”→“应用程序”→“权限管理”→“小安时代”→“读取\访问联系人”选择允许，
+            退出小安APP重新登录即可（不同品牌的安卓手机设置步骤有些微差别，若无法操作时可致电客服热线4008699600咨询）。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*录*人脸识别*失败*</pattern>
+        <template>
+            小安时代APP录入贷款申请时，人脸识别失败了，怎么办？
+            1、确保是本人刷脸操作；
+            2、摘掉眼镜、帽子等饰品，露出耳朵；
+            3、保持光线充足和均匀；
+            4、完成小安时代APP刷脸指定动作；
+            5、人脸识别失败5次，将会跳转至人工识别。
+        </template>
+    </category>
+    <category>
+        <pattern>*人脸识别*失败*</pattern>
+        <template>
+            小安时代APP录入贷款申请时，人脸识别失败了，怎么办？
+            1、确保是本人刷脸操作；
+            2、摘掉眼镜、帽子等饰品，露出耳朵；
+            3、保持光线充足和均匀；
+            4、完成小安时代APP刷脸指定动作；
+            5、人脸识别失败5次，将会跳转至人工识别。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*面签*改*信息*</pattern>
+        <template>
+            在小安时代APP录完贷款信息，已提交业务，但尚未面签，如何修改已录入信息？
+            请您联系客户经理取消该笔贷款；若无法联系客户经理，请拨打客服热线4008699600咨询。
+        </template>
+    </category>
+    <category>
+        <pattern>*改*已*信息*</pattern>
+        <template>
+            在小安时代APP录完贷款信息，已提交业务，但尚未面签，如何修改已录入信息？
+            请您联系客户经理取消该笔贷款；若无法联系客户经理，请拨打客服热线4008699600咨询。
+            在小安时代APP录入贷款信息时，若尚未提交业务，如何修改已录入信息？
+            请您登录小安时代APP，点击左上角“人形符号”→“设置”→“清除缓存”，重新录入资料即可。
+        </template>
+    </category>
+    <category>
+        <pattern>*已*信息*改*</pattern>
+        <template>
+            在小安时代APP录完贷款信息，已提交业务，但尚未面签，如何修改已录入信息？
+            请您联系客户经理取消该笔贷款；若无法联系客户经理，请拨打客服热线4008699600咨询。
+            在小安时代APP录入贷款信息时，若尚未提交业务，如何修改已录入信息？
+            请您登录小安时代APP，点击左上角“人形符号”→“设置”→“清除缓存”，重新录入资料即可。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*登录*闪退*</pattern>
+        <template>
+            登录小安时代APP时闪退怎么办？
+            1、请您关闭其他应用程序；
+            2、请您退出小安时代APP后重新登录或者关机重启后重新登录；
+            3、请您卸载手机上的小安时代APP后，通过正确途径重新下载小安时代APP。
+        </template>
+    </category>
+    <category>
+        <pattern>*闪退*</pattern>
+        <template>
+            登录小安时代APP时闪退怎么办？
+            1、请您关闭其他应用程序；
+            2、请您退出小安时代APP后重新登录或者关机重启后重新登录；
+            3、请您卸载手机上的小安时代APP后，通过正确途径重新下载小安时代APP。
+        </template>
+    </category>
+
+<!--4、面签预约的问题-->
+    <category>
+        <pattern>*小安*贷款申请*预审结果*</pattern>
+        <template>
+            在小安时代APP提交贷款申请后，如何知道预审结果？
+            在小安时代APP提交贷款申请后，预审结果将以短信方式通知您，请留意短信接收。
+        </template>
+    </category>
+    <category>
+        <pattern>*预审*结果*</pattern>
+        <template>
+            在小安时代APP提交贷款申请后，如何知道预审结果？
+            在小安时代APP提交贷款申请后，预审结果将以短信方式通知您，请留意短信接收。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*预约面签*面签地址*</pattern>
+        <template>
+            登录小安时代APP预约面签时，无法获取面签地址，怎么办？
+            1、苹果手机
+            请您打开手机，点击“设置”→“隐私”→“定位服务”→“小安时代”选择允许，退出小安时代APP后重新登录即可。
+            2、安卓手机
+            请您打开手机“设置”→“定位服务”→“小安时代”选择允许，
+            退出小安时代APP后重新登录即可（不同品牌的安卓手机设置步骤有些微差别，若无法操作时可致电客服热线4008699600咨询）。
+        </template>
+    </category>
+    <category>
+        <pattern>*面签*地址*</pattern>
+        <template>
+            登录小安时代APP预约面签时，无法获取面签地址，怎么办？
+            1、苹果手机
+            请您打开手机，点击“设置”→“隐私”→“定位服务”→“小安时代”选择允许，退出小安时代APP后重新登录即可。
+            2、安卓手机
+            请您打开手机“设置”→“定位服务”→“小安时代”选择允许，
+            退出小安时代APP后重新登录即可（不同品牌的安卓手机设置步骤有些微差别，若无法操作时可致电客服热线4008699600咨询）。
+        </template>
+    </category>
+
+    <!--5、审批及放款时效问题-->
+    <category>
+        <pattern>*审批*时效*</pattern>
+        <template>
+            贷款审批时效是多久？
+            约3个工作日。
+        </template>
+    </category>
+    <category>
+        <pattern>*审批*多*</pattern>
+        <template>
+            贷款审批时效是多久？
+            约3个工作日。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*贷款审批*通知*审批金额*</pattern>
+        <template>
+            贷款审批后，是否会通知客户审批金额？
+            贷款审批后，审批结果将以短信方式通知您；如审批金额与申请金额不一致，将有专人与您沟通确认。
+        </template>
+    </category>
+    <category>
+        <pattern>*审批*结果*</pattern>
+        <template>
+            贷款审批后，是否会通知客户审批金额？
+            贷款审批后，审批结果将以短信方式通知您；如审批金额与申请金额不一致，将有专人与您沟通确认。
+        </template>
+    </category>
+    <category>
+        <pattern>*审批*金额*</pattern>
+        <template>
+            贷款审批后，是否会通知客户审批金额？
+            贷款审批后，审批结果将以短信方式通知您；如审批金额与申请金额不一致，将有专人与您沟通确认。
+        </template>
+    </category>
+
+
+    <!--6、贷款取消相关的问题-->
+    <category>
+        <pattern>*面签*客户*取消*贷款*</pattern>
+        <template>
+            未面签客户，如何取消贷款申请？
+            请联系客户经理申请贷款取消；若无法联系客户经理，请拨打客服热线4008699600咨询。
+            贷款已审批通过，是否可以取消贷款申请？
+            已审批通过的贷款无法取消贷款申请。
+        </template>
+    </category>
+    <category>
+        <pattern>*取消*贷款*申请*</pattern>
+        <template>
+            未面签客户，如何取消贷款申请？
+            请联系客户经理申请贷款取消；若无法联系客户经理，请拨打客服热线4008699600咨询。
+            贷款已审批通过，是否可以取消贷款申请？
+            已审批通过的贷款无法取消贷款申请。
+        </template>
+    </category>
+
+    <category>
+    <pattern>*贷款*通过*取消*贷款*</pattern>
+    <template>
+        贷款已审批通过，是否可以取消贷款申请？
+        已审批通过的贷款无法取消贷款申请。
+    </template>
+    </category>
+
+    <category>
+        <pattern>*放款*信息*贷后*变更*</pattern>
+        <template>
+            业务放款后，客户信息（手机号码、邮箱、家庭住址等）如何进行贷后变更？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+    <category>
+        <pattern>*信息*更*</pattern>
+        <template>
+            业务放款后，客户信息（手机号码、邮箱、家庭住址等）如何进行贷后变更？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+    <category>
+        <pattern>*信息*改*</pattern>
+        <template>
+            业务放款后，客户信息（手机号码、邮箱、家庭住址等）如何进行贷后变更？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+    <category>
+        <pattern>*改*信息*</pattern>
+        <template>
+            业务放款后，客户信息（手机号码、邮箱、家庭住址等）如何进行贷后变更？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+    <category>
+        <pattern>*变*信息*</pattern>
+        <template>
+            业务放款后，客户信息（手机号码、邮箱、家庭住址等）如何进行贷后变更？
+            请您致电客服热线4008699600咨询。
+        </template>
+    </category>
+
+    <!--7、还款计划问题-->
+    <category>
+        <pattern>*提前*存*还款*</pattern>
+        <template>
+            我需要提前多久将充足款项存入还款账户？
+            请至少提前一天存款，并确保款项充足。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*延*还款*</pattern>
+        <template>
+            是否可以申请延期还款？
+            不可以。
+        </template>
+    </category>
+    <category>
+        <pattern>*迟*还款*</pattern>
+        <template>
+            是否可以申请延期还款？
+            不可以。
+        </template>
+    </category>
+    <category>
+        <pattern>*晚*还款*</pattern>
+        <template>
+            是否可以申请延期还款？
+            不可以。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*改*还款*日期*</pattern>
+        <template>
+            是否可以更改还款日期？
+            不可以。
+        </template>
+    </category>
+    <category>
+        <pattern>*改*还款*时间*</pattern>
+        <template>
+            是否可以更改还款日期？
+            不可以。
+        </template>
+    </category>
+
+
+    <!--7、还款短信问题-->
+    <category>
+        <pattern>*还款*短信*通知*</pattern>
+        <template>
+            还款日前是否有短信通知客户还款？
+            还款日前1-3天，系统将推送提示短信，请注意查收。
+        </template>
+    </category>
+    <category>
+        <pattern>*短信*通知*还款*</pattern>
+        <template>
+            还款日前是否有短信通知客户还款？
+            还款日前1-3天，系统将推送提示短信，请注意查收。
+        </template>
+    </category>
+
+
+    <!--8、逾期还款问题-->
+    <category>
+        <pattern>*还款*扣款*失败*</pattern>
+        <template>
+            我在还款日当天存入足额款项，却扣款失败，这是怎么回事，该如何解决？
+            按照合同规定，我们会在还款日从您的还款账户自动扣款，请您在还款日前一天将充足款项存入还款账户，避免扣款失败。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*逾期*还款*</pattern>
+        <template>
+            逾期后如何还款？
+            请拨打客服热线4008699600咨询。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*提前*还款*</pattern>
+        <template>
+            全部机构都有这个问题
+            如何申请提前还款？
+            小安、天府、润信、铜板街业务：请您提前20个工作日，致电客服热线4008699600申请。
+            安信业务：请您致电安信客服热线400-882-8831进行申请，客服工作日时间9：00-18:00。
+        </template>
+    </category>
+
+    <!--9、利率的问题-->
+    <category>
+        <pattern>*贷款*利率*</pattern>
+        <template>
+            全部机构都有这个问题且答案一致
+            贷款利率是多少？
+            以《个人信用贷款合同》约定为准。
+        </template>
+    </category>
+    <category>
+        <pattern>*贷款*利息*</pattern>
+        <template>
+            全部机构都有这个问题且答案一致
+            贷款利率是多少？
+            以《个人信用贷款合同》约定为准。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*贷款*利息*开始*算*</pattern>
+        <template>
+            全部机构都有这个问题且答案一致
+            贷款利息从哪天开始计算？
+            贷款发放日。
+        </template>
+    </category>
+
+    <!--10、费用问题-->
+    <category>
+        <pattern>*注册*小安*收*费*</pattern>
+        <template>
+            注册小安时代账号是否收取费用？
+            不收取。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*支付*费用*</pattern>
+        <template>
+            小安和天府共有的问题且答案相同
+            客户需要向银行和小安时代公司支付哪些费用？
+            客户按照《个人信用贷款合同》约定按时足额地向银行归还相应贷款本金及利息，
+            并按照《个人金融服务合同》向小安时代公司支付咨询费及管理费，具体收费标准参见合同。
+        </template>
+    </category>
+
+<!--11、征信问题-->
+    <category>
+        <pattern>*贷款*不良信息*</pattern>
+        <template>
+            客户贷款不良信息如何处理？
+            客户授权银行按照国家的有关规定向金融信用信息基础数据库和其他经国务院征信业监督管理部门批准设立的征信机构提供客户本人的信用信息，
+            包括客户本人在银行发生的不良信息。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*合作*</pattern>
+        <template>
+            合作或加盟途径
+            请您将合作资料（如公司简历，合作或加盟方案等）发送小安时代企业邮箱4008699600@xiaoantimes、com，
+            公司将安排专人进行评估，如有合作意向，会有专人跟您联系。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*加盟*</pattern>
+        <template>
+            合作或加盟途径
+            请您将合作资料（如公司简历，合作或加盟方案等）发送小安时代企业邮箱4008699600@xiaoantimes、com，
+            公司将安排专人进行评估，如有合作意向，会有专人跟您联系。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*联系*</pattern>
+        <template>
+            联系我们
+            客服热线：4008699600
+            企业邮箱：4008699600@xiaoantimes、com
+            微信公众号：小安时代
+        </template>
+    </category>
+    <category>
+        <pattern>*举报*</pattern>
+        <template>
+            联系我们
+            客服热线：4008699600
+            企业邮箱：4008699600@xiaoantimes、com
+            微信公众号：小安时代
+        </template>
+    </category>
+
+    <!--这些问题的答案还未确定-->
+    <category>
+        <pattern>*申请*贷款*</pattern>
+        <template>
+            如何申请贷款？
+            请您登录小安时代APP，点击“借款”，若您名下有红本在手或房产在押（按月还款总期数≤37；非按月还款不限）的房产、公积金房贷，
+            请您点击“房产贷” ，其他情况，请您点击“小安时代”提交贷款申请，预审通过后预约面签，
+            并携带指定贷款资料进行面签，贷款审批后放款。
+        </template>
+    </category>
+    <category>
+        <pattern>*办理*贷款*</pattern>
+        <template>
+            如何申请贷款？
+            请您登录小安时代APP，点击“借款”，若您名下有红本在手或房产在押（按月还款总期数≤37；非按月还款不限）的房产、公积金房贷，
+            请您点击“房产贷” ，其他情况，请您点击“小安时代”提交贷款申请，预审通过后预约面签，
+            并携带指定贷款资料进行面签，贷款审批后放款。
+        </template>
+    </category>
+    <!--<category>-->
+        <!--<pattern>*贷款*怎么*</pattern>-->
+        <!--<template>-->
+            <!--如何申请贷款？-->
+            <!--请您登录小安时代APP，点击“借款”，若您名下有红本在手或房产在押（按月还款总期数≤37；非按月还款不限）的房产、公积金房贷，-->
+            <!--请您点击“房产贷” ，其他情况，请您点击“小安时代”提交贷款申请，预审通过后预约面签，-->
+            <!--并携带指定贷款资料进行面签，贷款审批后放款。-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <category>
+        <pattern>*贷款*预审*短信*面签*</pattern>
+        <template>
+            收到贷款预审短信后，如何预约面签？
+            请您登录小安时代APP，点击“面签预约”，根据提示预约即可，
+            营业时间为周一至周五9:00→19:00，周六9：00→18：00,周日不营业。
+            早上11:00、下午15:00-16:00是业务高峰期，客户排队等候时间长，请尽量回避。
+        </template>
+    </category>
+    <category>
+        <pattern>*预约*面签*</pattern>
+        <template>
+            收到贷款预审短信后，如何预约面签？
+            请您登录小安时代APP，点击“面签预约”，根据提示预约即可，
+            营业时间为周一至周五9:00→19:00，周六9：00→18：00,周日不营业。
+            早上11:00、下午15:00-16:00是业务高峰期，客户排队等候时间长，请尽量回避。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*面签*网点*</pattern>
+        <template>
+            面签网点有哪些？
+            请您登录小安时代APP，点击右下角“预约面签”，我们会向您提供最近的面签网点。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*贷款*放款*</pattern>
+        <template>
+            贷款审批后多久放款？
+            小安：贷款审批后，约3个工作日放款。
+            放款时效？
+            铜板街：
+            1、进件资料导入铜金所的时间早于T日14:00时的，放款日为T+1日。如T+1日为非工作日，则为下一个工作日。
+            2、进件资料导入铜金所的时间晚于T日14:00时的，放款日为T+2日。如T+2日为非工作日，则为下一个工作日。
+            说明：非工作日的最后一天导入的进件，放款日为下一个工作日。
+        </template>
+    </category>
+    <category>
+        <pattern>*申请*贷款*放款*</pattern>
+        <template>
+            贷款审批后多久放款？
+            小安：贷款审批后，约3个工作日放款。
+            放款时效？
+            铜板街：
+            1、进件资料导入铜金所的时间早于T日14:00时的，放款日为T+1日。如T+1日为非工作日，则为下一个工作日。
+            2、进件资料导入铜金所的时间晚于T日14:00时的，放款日为T+2日。如T+2日为非工作日，则为下一个工作日。
+            说明：非工作日的最后一天导入的进件，放款日为下一个工作日。
+        </template>
+    </category>
+    <category>
+        <pattern>*审批*放款*</pattern>
+        <template>
+            贷款审批后多久放款？
+            小安：贷款审批后，约3个工作日放款。
+            放款时效？
+            铜板街：
+            1、进件资料导入铜金所的时间早于T日14:00时的，放款日为T+1日。如T+1日为非工作日，则为下一个工作日。
+            2、进件资料导入铜金所的时间晚于T日14:00时的，放款日为T+2日。如T+2日为非工作日，则为下一个工作日。
+            说明：非工作日的最后一天导入的进件，放款日为下一个工作日。
+        </template>
+    </category>
+    <!--这个模板是为了匹配铜板街的放款时效的问题-->
+    <category>
+        <pattern>*放款*时*</pattern>
+        <template>
+            贷款审批后多久放款？
+            小安：贷款审批后，约3个工作日放款。
+            放款时效？
+            铜板街：
+            1、进件资料导入铜金所的时间早于T日14:00时的，放款日为T+1日。如T+1日为非工作日，则为下一个工作日。
+            2、进件资料导入铜金所的时间晚于T日14:00时的，放款日为T+2日。如T+2日为非工作日，则为下一个工作日。
+            说明：非工作日的最后一天导入的进件，放款日为下一个工作日。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*审批*签*合同*</pattern>
+        <template>
+            审批后如何签订合同？
+            贷款审批后，合同签订链接将以短信方式通知您，请在7个自然日内点击签订。
+        </template>
+    </category>
+    <category>
+        <pattern>*签*合同*</pattern>
+        <template>
+            审批后如何签订合同？
+            贷款审批后，合同签订链接将以短信方式通知您，请在7个自然日内点击签订。
+            如何在小安时代APP上签订合同？
+            请您登录小安时代APP，点击“签署贷款合同”→“待签署”→“人脸识别”→“实名认证”，根据提示完成合同签署。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*合同*有效*</pattern>
+        <template>
+            合同签署有效期？
+            7 *24个小时内均可有效签署。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*签*合同*</pattern>
+        <template>
+            如何在小安时代APP上签订合同？
+            请您登录小安时代APP，点击“签署贷款合同”→“待签署”→“人脸识别”→“实名认证”，根据提示完成合同签署。
+        </template>
+    </category>
+    <category>
+        <pattern>*软件*签*合同*</pattern>
+        <template>
+            如何在小安时代APP上签订合同？
+            请您登录小安时代APP，点击“签署贷款合同”→“待签署”→“人脸识别”→“实名认证”，根据提示完成合同签署。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*查看*银行*贷款*合同*</pattern>
+        <template>
+            我可以通过什么途径查看银行贷款合同？
+            请您登录小安时代APP，点击“查看贷款详情”→放款资金方后的放大镜，可查看银行贷款合同。
+        </template>
+    </category>
+    <category>
+        <pattern>*查看*贷款*合同*</pattern>
+        <template>
+            我可以通过什么途径查看银行贷款合同？
+            请您登录小安时代APP，点击“查看贷款详情”→放款资金方后的放大镜，可查看银行贷款合同。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*还款*计划*</pattern>
+        <template>
+            如何在小安时代APP上查看还款计划？
+            请您登录小安时代APP，点击“查看贷款详情”→“N天到期”，即可查看还款计划。
+        </template>
+    </category>
+    <category>
+        <pattern>*看*还款*计划*</pattern>
+        <template>
+            如何在小安时代APP上查看还款计划？
+            请您登录小安时代APP，点击“查看贷款详情”→“N天到期”，即可查看还款计划。
+        </template>
+    </category>
+    <category>
+        <pattern>*查*还款*计划*</pattern>
+        <template>
+            如何在小安时代APP上查看还款计划？
+            请您登录小安时代APP，点击“查看贷款详情”→“N天到期”，即可查看还款计划。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*查*还款*日期*</pattern>
+        <template>
+            小安、安信、润信、铜板街共有问题且答案相同
+            如何查询还款日期？
+            您有以下两种查询方式：
+            1、请您登录小安时代APP，点击“查看贷款详情”→“N天到期”，即可查看还款日期；
+            2、还款日前，系统将推送提示短信，可查看还款日期。
+        </template>
+    </category>
+    <category>
+        <pattern>*查*还款*时间*</pattern>
+        <template>
+            小安、安信、润信、铜板街共有问题且答案相同
+            如何查询还款日期？
+            您有以下两种查询方式：
+            1、请您登录小安时代APP，点击“查看贷款详情”→“N天到期”，即可查看还款日期；
+            2、还款日前，系统将推送提示短信，可查看还款日期。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*还款*短信*提醒*</pattern>
+        <template>
+            还款后，没有收到短信提醒，怎么办？
+            1. 手机安装了拦截软件。 解决方法：解除应用软件的短信拦截，或者更换一个手机；
+            2. 手机信号不稳定、手机欠费或者停机。 解决方法：如果是信号网络延迟，可稍后尝试重新获取；
+            3. 手机欠费停机后，充值复机第一天无法接收平台发出的短信。 解决方法：建议您更换手机号码或者第二天重新获取；
+            4. 手机在境外使用或者使用境外手机；
+            5. 手机短信息存储满了。
+        </template>
+    </category>
+    <category>
+        <pattern>*短信*提醒*</pattern>
+        <template>
+            还款后，没有收到短信提醒，怎么办？
+            1. 手机安装了拦截软件。 解决方法：解除应用软件的短信拦截，或者更换一个手机；
+            2. 手机信号不稳定、手机欠费或者停机。 解决方法：如果是信号网络延迟，可稍后尝试重新获取；
+            3. 手机欠费停机后，充值复机第一天无法接收平台发出的短信。 解决方法：建议您更换手机号码或者第二天重新获取；
+            4. 手机在境外使用或者使用境外手机；
+            5. 手机短信息存储满了。
+        </template>
+    </category>
+
+    <category>
+        <pattern>*小安*绑定*手机号*</pattern>
+        <template>
+            如何变更小安时代APP绑定手机号码？
+            小安时代：请您拨打客服热线4008699600咨询。
+            如何修改熊猫金融APP绑定的手机号码？
+            客户需携带身份证原件至四川天府银行网点办理。
+        </template>
+    </category>
+    <category>
+        <pattern>*改*绑*手机号*</pattern>
+        <template>
+            如何变更小安时代APP绑定手机号码？
+            小安时代：请您拨打客服热线4008699600咨询。
+            如何修改熊猫金融APP绑定的手机号码？
+            客户需携带身份证原件至四川天府银行网点办理。
+        </template>
+    </category>
+
+
+
+
+    <!--<category>-->
+        <!--<pattern>*联系我们*</pattern>-->
+        <!--<template>-->
+            <!--等额本息。-->
+        <!--</template>-->
+    <!--</category>-->
+
+
+
+
+
+
+
+
+
+
+    <!--<category>-->
+        <!--&lt;!&ndash;srai不能很好的匹配中文&ndash;&gt;-->
+        <!--<pattern>是*</pattern>-->
+        <!--<template>-->
+            <!--&lt;!&ndash;源码只识别大写字母，必要的话单词之间还得分隔开，但是输入的时候是不区分大小写的&ndash;&gt;-->
+            <!--<srai>老万</srai>-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--&lt;!&ndash;srai不能很好的匹配中文&ndash;&gt;-->
+        <!--<pattern>老万</pattern>-->
+        <!--<template>-->
+            <!--&lt;!&ndash;源码只识别大写字母，必要的话单词之间还得分隔开，但是输入的时候是不区分大小写的&ndash;&gt;-->
+            <!--你好啊-->
+        <!--</template>-->
+    <!--</category>-->
+
+
+
+    <!--<category>-->
+        <!--<pattern>我*名字*</pattern>-->
+        <!--<template>-->
+            <!--&lt;!&ndash;index=“1”代表pattern中第一个星号的内容&ndash;&gt;-->
+            <!--你好，<star index = "2"/>。<star index = "1"/>?-->
+        <!--</template>-->
+    <!--</category>-->
+
+
+
+
+    <!--<category>-->
+        <!--<pattern>谁是老王</pattern>-->
+        <!--<template>老王是隔壁的邻居</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+    <!--<pattern>你好</pattern>-->
+
+    <!--<template>-->
+        <!--<random>-->
+            <!--<li>你好 </li>-->
+            <!--<li>很高兴见到你</li>-->
+        <!--</random>-->
+    <!--</template>-->
+
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>我是*</pattern>-->
+        <!--<template>-->
+            <!--你好，<set name = "username"> <star/>! </set>-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>晚安</pattern>-->
+        <!--<template>-->
+            <!--嗨，<get name = "username"/> Thanks for the conversation!-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>你喜欢电影吗？</pattern>-->
+        <!--<template>你喜欢魔幻片吗？</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>是的</pattern>-->
+        <!--<that>你喜欢魔幻片吗？</that>-->
+        <!--<template>我也喜欢</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>不</pattern>-->
+        <!--<that>我也喜欢</that>-->
+        <!--<template>我喜欢喜剧片</template>-->
+    <!--</category>-->
+
+
+    <!--<category>-->
+        <!--&lt;!&ndash;Topic关键字无法使用&ndash;&gt;-->
+        <!--<pattern>LET DISCUSS MOVIES</pattern>-->
+        <!--<template>Yes <set name = "topic">movies</set></template>-->
+    <!--</category>-->
+
+    <!--<topic name = "movies">-->
+        <!--<category>-->
+            <!--<pattern> * </pattern>-->
+            <!--<template>Watching good movie refreshes our minds.</template>-->
+        <!--</category>-->
+
+        <!--<category>-->
+            <!--<pattern> I LIKE WATCHING COMEDY! </pattern>-->
+            <!--<template>I like comedy movies too.</template>-->
+        <!--</category>-->
+
+    <!--</topic>-->
+
+    <!--<category>-->
+        <!--<pattern>我叫*</pattern>-->
+        <!--<template>-->
+            <!--Hello!<think><set name = "username"> <star/></set></think>-->
+            <!--<input index="1"/>-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>拜拜</pattern>-->
+        <!--<template>-->
+            <!--Hi <get name = "username"/> 谢谢你的话。-->
+        <!--</template>-->
+    <!--</category>-->
+
+    <!--<category>-->
+        <!--<pattern>今天觉得怎么样？</pattern>-->
+
+        <!--<template>-->
+            <!--<set name = "用户名称">小明</set>-->
+            <!--<if name="用户名称">-->
+                <!--你的名字叫 <get name="用户名称"/>.-->
+                <!--<else/>-->
+                <!--你叫什么名字？-->
+            <!--</if>-->
+        <!--</template>-->
+
+    <!--</category>-->
+    <!--<category>-->
+        <!--<pattern>WHAT IS THE DATE</pattern>-->
+        <!--<template>Today is <date format="%B %d, %Y" /></template>-->
+    <!--</category>-->
+</aiml>
+
+
+
+
+
+
